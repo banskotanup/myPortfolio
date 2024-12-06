@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-                <p class="footer-text text-center my-2">Copyright © 2023 All rights reserved | Anup Banskota
+                <p class="footer-text text-center my-2">Copyright © <script>document.write(new Date().getFullYear())</script> All rights reserved | Anup Banskota
                 </p>
 
             </div>

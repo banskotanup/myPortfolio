@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio-{{$title}}</title>
 
     <!-- FAVICON -->
-    <link rel="icon" href="images/myIcon.webp" type="image/png/webp">
+    <link rel="icon" href="{{url('frontEnd/images/logo.png')}}" type="image/png/webp">
 
     <!-- BOOTSTRAP 5 LINK -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
