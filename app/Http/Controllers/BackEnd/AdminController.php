@@ -9,6 +9,11 @@ class AdminController extends Controller
 {
     public function index(){
         $data['title'] = "Dashboard";
-        return view('backEnd.layouts.app', $data);
+        return view('backEnd.index', $data);
+    }
+
+    public function login(){
+        $data['title'] = "Admin Login";
+        return view('backEnd.auth.login', $data);
     }
 }

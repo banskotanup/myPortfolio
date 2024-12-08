@@ -13,8 +13,11 @@
 </head>
 <body>
   <div class="container-scroller d-flex">
+    
     @include('backEnd.layouts.sidebar')
-    @include('backEnd.layouts.main')
+    @include('backEnd.layouts.header')
+    @yield('content')
+    @include('backEnd.layouts.footer')
   </div>
 
   <!-- base:js -->

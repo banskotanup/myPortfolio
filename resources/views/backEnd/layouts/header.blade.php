@@ -1,3 +1,4 @@
+<div class="container-fluid page-body-wrapper">
 <nav class="navbar col-lg-12 col-12 px-0 py-0 py-lg-4 d-flex flex-row">
     <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
       <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -164,3 +165,4 @@
       </ul>
     </div>
   </nav>
+  <div class="main-panel">

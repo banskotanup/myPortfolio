@@ -1,8 +1,7 @@
-<div class="container-fluid page-body-wrapper">
+
     <!-- partial:./partials/_navbar.html -->
-    @include('backEnd.layouts.header')
     <!-- partial -->
-    <div class="main-panel">
+    
       <div class="content-wrapper">
         <div class="row">
           <div class="col-12 col-xl-6 grid-margin stretch-card">
@@ -380,7 +379,3 @@
       <!-- content-wrapper ends -->
       <!-- partial:./partials/_footer.html -->
       <!-- partial -->
-      @include('backEnd.layouts.footer')
-    </div>
-    <!-- main-panel ends -->
-  </div>
